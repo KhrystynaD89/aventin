@@ -1,0 +1,345 @@
+h1 {
+  color: #eee4e0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lobster Two", cursive;
+  font-size: 30px;
+  margin: 0px;
+}
+
+/* HEADER */
+.header_section {
+  height: 90vh;
+  background-image: url("./images/bacground_picture.jpg");
+  background-size: cover;
+  background-position: center;
+  color: beige;
+  padding: 10px;
+}
+
+.header_section h1 {
+  padding-top: 330px;
+  padding-left: 35px;
+}
+
+.header_section h2 {
+  padding-left: 35px;
+  margin-bottom: 0px;
+}
+
+.header_section ul {
+  list-style-type: none;
+  margin: 0px;
+}
+
+.header_section ul li {
+  display: inline-block;
+}
+
+.header_section ul li p {
+  padding-right: 100px;
+}
+
+.header_section ul li button {
+  display: inline-block;
+  border-radius: 25px;
+  border: none;
+  padding: 5px 10px;
+  background-color: antiquewhite;
+  color: black;
+  text-decoration: none;
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+  font-size: 30px;
+  width: 200px;
+  height: 50px;
+}
+
+.header_section ul li button:hover {
+  background-color: black;
+  color: antiquewhite;
+}
+
+/* NAVIGATION */
+
+.navigation_bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  list-style-type: none;
+  background-color: rgba(76, 65, 52, 0.93);
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding-top: 3px;
+  padding-bottom: 15px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.navigation_bar li a {
+  border-radius: 35px;
+  border: none;
+  padding: 5px 15px;
+  background-color: antiquewhite;
+  font-family: "Lobster Two", cursive;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.navigation_bar li a:hover {
+  background-color: black;
+  color: antiquewhite;
+}
+
+/* MISTAKE */
+
+/* .navigation_bar li button {
+  border-radius: 35px;
+  border: none;
+  padding: 5px 10px;
+  background-color: antiquewhite;
+  font-family: "Lobster Two", cursive;
+  font-weight: 700;
+}
+
+.navigation_bar li button:hover {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.navigation_bar li button a {
+  padding: 5px;
+  margin: 0 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.navigation_bar li button a:hover {
+  color: antiquewhite;
+} */
+
+/* SCHEDULE */
+
+.schedule {
+  font-size: 25px;
+  background-color: #cdc1c5;
+  padding: 25px;
+}
+
+.schedule h2 {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding-top: 20px;
+}
+
+.table th {
+  background-color: rgba(76, 65, 52, 0.93);
+}
+
+.change_color {
+  background-color: #eee4e0;
+}
+
+.table th,
+td {
+  border: solid 2px black;
+}
+
+.table th,
+td {
+  border-radius: 20px;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+/* DANCEWEAR SHOP */
+
+.dancewear_shop {
+  padding-top: 100px;
+  padding-bottom: 172px;
+  background-color: #cdc1c5;
+}
+
+.columns_heading_dancewear_shop {
+  display: flex;
+}
+
+.columns_heading_dancewear_shop h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.columns_heading_dancewear_shop h2 a:hover {
+  color: rgba(89, 89, 230, 0.875);
+  text-decoration: underline;
+}
+
+.columns_heading_dancewear_shop img {
+  padding-left: 550px;
+}
+
+.columns_dancewear_shop {
+  display: flex;
+}
+
+.columns_dancewear_shop p {
+  text-align: justify;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.columns_dancewear_shop p a {
+  text-decoration: none;
+  color: rgba(89, 89, 230, 0.875);
+}
+
+.columns_dancewear_shop p a:hover {
+  text-decoration: underline;
+}
+
+/* COMPETITIONS AND PERFORMANCES */
+
+.section_competitions_and_performances {
+  min-height: 100vh;
+  background-color: #eee4e0;
+  padding: 25px;
+}
+
+.section_container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.section_competitions_and_performances h2 {
+  margin: 0;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.section_card {
+  border-radius: 8px;
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+}
+
+.section_card h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 0 10px 10px;
+}
+
+.section_card h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 10px 10px;
+}
+
+.section_card p {
+  margin: 10px 0 20px 10px;
+  font-size: 16px;
+}
+
+.section_card a {
+  margin: 10px 0 20px 10px;
+  font-size: 18px;
+}
+
+.section_card_top {
+  max-width: 400px;
+  height: 300px;
+  border-radius: 6px 6px 0 0;
+}
+
+.section_card_bottom {
+  max-width: 400px;
+  height: 200px;
+}
+
+#section_card_1 {
+  background-image: url("./images/concert-2021-05-30\ \(55\).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#section_card_2 {
+  background-image: url("./images/danceboom.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#section_card_3 {
+  background-image: url("./images/performance.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section_card_bottom {
+  border-radius: 0 0 6px 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: beige;
+}
+
+/* ABOUT */
+
+.about {
+  padding: 50px 50px 165px 50px;
+  background-color: #cdc1c5;
+}
+
+.about_section {
+  display: flex;
+}
+
+.about_section_paragraph {
+  justify-content: flex-end;
+  padding-right: 35px;
+  text-align: justify;
+}
+
+/* CONTACT */
+
+.footer {
+  background-color: #9e908a;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact_icons ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px;
+  margin-left: 70px;
+}
+
+.contact_icons ul li {
+  padding: 50px;
+  margin: 10px;
+  font-size: 55px;
+  color: beige;
+}
+
+.footer_iframe {
+  padding: 100px;
+}
